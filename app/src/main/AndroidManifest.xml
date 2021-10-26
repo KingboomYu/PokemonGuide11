@@ -14,12 +14,15 @@
         android:usesCleartextTraffic="true">
         <activity
             android:name=".SearchPokemon"
+            android:parentActivityName=".MainActivity"
             android:exported="true" />
         <activity
             android:name=".ListAll"
+            android:parentActivityName=".MainActivity"
             android:exported="true" />
         <activity
             android:name=".PicTest"
+            android:parentActivityName=".ListAll"
             android:exported="true" />
         <activity
             android:name=".MainActivity"
